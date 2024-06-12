@@ -1,0 +1,33 @@
+.navContainer {
+  background-color: #000000;
+  padding-inline: 3rem;
+  padding-block: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navContainer div a {
+  color: #fff;
+}
+
+.linkContainer {
+  display: flex;
+  gap: 2rem;
+  transition: ease-in 2s;
+}
+
+.linkContainer a {
+  color: #fff;
+  background-color: #e53939;
+  padding-inline: 1.5rem;
+  padding-block: 0.75rem;
+  border: 1px solid #ffffff;
+  border-radius: 0.5rem;
+  transition: color 0.4s;
+}
+
+.linkContainer a:hover {
+  color: #e53939;
+  background-color: #000000;
+}

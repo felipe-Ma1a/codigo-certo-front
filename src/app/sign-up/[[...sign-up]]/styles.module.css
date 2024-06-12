@@ -1,0 +1,7 @@
+.signUpContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  margin-top: 10rem;
+}

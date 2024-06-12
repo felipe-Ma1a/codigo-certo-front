@@ -1,4 +1,4 @@
-.main {
+.dashboardContainer {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -7,6 +7,6 @@
   min-height: 100vh;
 }
 
-.main p {
+.dashboardContainer p {
   font-size: 1.25rem;
 }
